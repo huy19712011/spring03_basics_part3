@@ -8,6 +8,15 @@
     <servlet>
         <servlet-name>dispatcher</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        
+        <!--tutorial 2, vid 19-->
+        <!--Note: todo-servlet.xml == dispatcher-servlet.xml-->
+<!--    <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>/WEB-INF/todo-servlet.xml</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>-->
+        
     </servlet>
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
